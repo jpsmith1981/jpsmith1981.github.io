@@ -1,0 +1,257 @@
+/* Ubuntu Font*/
+@font-face{
+    font-family : "Ubuntu";
+    src: url('fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+
+ @font-face
+{
+    font-family : "Ubuntu";
+    src: url('fonts/Ubuntu/Ubuntu-Bold.ttf');
+    font-weight : bold;
+}
+
+
+@font-face 
+{
+    font-family : "Ubuntu";
+    src: url('fonts/Ubuntu/Ubuntu-Italic.ttf');
+    font-style : italic;
+}
+
+
+@font-face
+{
+    font-family : "Ubuntu";
+    src: url('fonts/Ubuntu/Ubuntu-BoldItalic.ttf');
+    font-weight : bold;
+    font-style : italic;
+}
+
+/* General Styles */
+	.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p {
+		font-family: 'Ubuntu', sans-serif;
+		
+	}
+
+	.reveal p{
+		margin:16px;
+		font-size: 24px;
+	}
+
+	.reveal h1{
+		font-size: 62px;
+	}
+
+	.reveal h2{
+		font-size: 48px;
+		
+	}
+
+	.reveal h1.tall-title{
+		line-height:100px;
+	}
+						.
+
+	.reveal h2.text-white{
+		color:white;
+	}
+
+	.reveal blockquote{
+		font-family: "Ubuntu";
+		width: 100%;
+
+	}
+
+	.reveal blockquote cite{
+		display:block;
+		font-weight: bold;
+		font-family: "Ubuntu";
+		font-size: 75%;
+
+	}
+
+	address{
+		margin-top: 200px;
+		text-align: left;
+	}
+
+	/* Sudo Grid/Layout Formating */
+	.content-left-60{
+		width:60%;
+		float:left;
+	}
+	.content-left-40{
+		width:40%;
+		float:left;
+	}
+
+	.content-left-20{
+		width:20%;
+		float:left;
+	}
+
+	.content-left-80{
+		width:80%;
+		float:left;
+	}
+
+	.content-right-60{
+		width:60%;
+		float:right;
+	}
+
+	.content-right-40{
+		width:40%;
+		float:right;
+	}
+
+	.content-right-20{
+		width:20%;
+		float:right;
+	}
+
+	.content-right-80{
+		width:80%;
+		float:right;
+	}
+	
+
+	/* Josh's Bio Slide*/
+	
+	.reveal #josh-bio img{
+		max-width: 70%;
+					
+	}
+	
+	.reveal #josh-bio h2{
+		font-size: 48px;
+
+	}
+
+	.reveal #josh-bio p{
+		font-size: 24px;
+		text-align: left;
+	}
+
+	/* Teresa's Bio Slide*/
+	
+	.reveal #teresa-bio img{
+		max-width: 100%;
+					
+	}
+	
+	.reveal #teresa-bio h2{
+		font-size: 48px;
+
+	}
+
+	.reveal #teresa-bio p{
+		margin-left:40px;
+		font-size: 24px;
+		text-align: left;
+	}
+
+	.followers{
+		width: 100%;
+		margin-top: 16px;
+	}
+
+	.followers li{
+		float:left;
+		list-style:none;
+		display:block;
+		width:33%;
+		font-size: 26px;
+	}
+
+	.followers li img{
+		margin-top: 12px;
+		margin-right:8px;
+		vertical-align:middle;
+	}
+
+	.case-study select{
+		font-size: 18px;
+		height: 565px;
+		width: 100%;
+		text-align: left;
+	}
+
+	.case-study .solution-a h2{
+		background-color: white;
+		padding:20px;
+	}
+
+	.case-study .state-links{
+		padding-bottom: 20px;
+		background-color: white;
+	}
+
+	.case-study .state-links li{
+		list-style: none;
+		width:30%;
+		margin:.25% 1.5%;
+		float:left;
+		display:block;
+		height:30px;
+	}
+
+	.case-study .state-links li a{
+		font-size: 16px;
+		font-weight: bolder;
+	}
+
+	.people {
+		border: 4px none black;
+		background-color:rgba(255, 255, 255,)
+	}
+
+	/****** Code Styles */
+
+	/* Tomorrow Night Blue Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+.tomorrow-comment, pre .comment, pre .title {
+  color: #7285b7;
+}
+
+.tomorrow-red, pre .variable, pre .attribute, pre .tag, pre .regexp, pre .ruby .constant, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
+  color: #ff9da4;
+}
+
+.tomorrow-orange, pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {
+  color: #ffc58f;
+}
+
+.tomorrow-yellow, pre .class, pre .ruby .class .title, pre .css .rules .attribute {
+  color: #ffeead;
+}
+
+.tomorrow-green, pre .string, pre .value, pre .inheritance, pre .header, pre .ruby .symbol, pre .xml .cdata {
+  color: #d1f1a9;
+}
+
+.tomorrow-aqua, pre .css .hexcolor {
+  color: #99ffff;
+}
+
+.tomorrow-blue, pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .title, pre .ruby .title .keyword, pre .perl .sub, pre .javascript .title, pre .coffeescript .title {
+  color: #bbdaff;
+}
+
+.tomorrow-purple, pre .keyword, pre .javascript .function {
+  color: #ebbbff;
+}
+
+pre code {
+  display: block;
+  background: #002451;
+  color: white;
+  font-family: Menlo, Monaco, Consolas, monospace;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
